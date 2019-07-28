@@ -73,8 +73,6 @@
 	<modules>
 		<module>aop</module>
 		<module>common</module>
-		<module>tx</module>
-    <module>test</module>
     <module>el</module>
-  </modules>
+	</modules>
 </project>
