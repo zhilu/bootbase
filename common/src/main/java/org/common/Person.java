@@ -2,11 +2,13 @@ package org.common;
 
 import java.time.LocalDate;
 
+
 public class Person {
     private String lastName;
     private String firstName;
     private LocalDate dateOfBirth;
-
+   
+    
     public Person() {
     }
 
@@ -39,4 +41,5 @@ public class Person {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
 }

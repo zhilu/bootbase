@@ -74,5 +74,6 @@
 		<module>aop</module>
 		<module>common</module>
     <module>el</module>
-	</modules>
+    <module>mvc</module>
+  </modules>
 </project>

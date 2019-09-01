@@ -10,9 +10,9 @@
 		<version>0.0.1</version>
 	</parent>
 	<groupId>shi</groupId>
-	<artifactId>common</artifactId>
+	<artifactId>mvc</artifactId>
 	<version>0.0.1</version>
-	<name>common</name>
+	<name>mvc</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,13 +24,29 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.test4j</groupId>
-			<artifactId>test4j.integrated</artifactId>
-			<version>2.0.7</version>
+			<groupId>org.apache.jackrabbit</groupId>
+			<artifactId>jackrabbit-webdav</artifactId>
+			<version>2.19.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.17.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.el</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>shi</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 </project>
