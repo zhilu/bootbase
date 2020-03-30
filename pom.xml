@@ -72,5 +72,7 @@
     <module>el</module>
     <module>mvc</module>
     <module>test</module>
-  </modules>
+        <module>sdubbo</module>
+		<module>cdubbo</module>
+	</modules>
 </project>
