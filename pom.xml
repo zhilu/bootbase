@@ -49,6 +49,10 @@
 	</build>
 	<dependencies>
 		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<scope>provided</scope>
@@ -71,8 +75,10 @@
 		<module>common</module>
     <module>el</module>
     <module>mvc</module>
+    <module>auto</module>
+    <module>cdubbo</module>
+    <module>sdubbo</module>
     <module>test</module>
-        <module>sdubbo</module>
-		<module>cdubbo</module>
-	</modules>
+    <module>validator</module>
+  </modules>
 </project>
