@@ -76,9 +76,6 @@
     <module>el</module>
     <module>mvc</module>
     <module>auto</module>
-    <module>cdubbo</module>
-    <module>sdubbo</module>
-    <module>test</module>
     <module>validator</module>
   </modules>
 </project>
